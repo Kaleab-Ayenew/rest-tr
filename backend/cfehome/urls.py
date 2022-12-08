@@ -21,5 +21,6 @@ import dj.urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(api.urls))
+    path('api/', include(api.urls)),
+    path('dj/', include(dj.urls))
 ]
